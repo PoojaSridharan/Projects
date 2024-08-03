@@ -14,14 +14,14 @@ The primary goal of this project is to analyze the job market for data-related p
 **Methodology:**
 
 1. Web Scraping with Selenium:
-   - Automated the process of scrolling through LinkedIn job listings and clicking the "See More Jobs" button to load additional job postings.
-   - Navigated through different pages to ensure a comprehensive collection of job data.
+- Automated the process of scrolling through LinkedIn job listings and clicking the "See More Jobs" button to load additional job postings.
+- Navigated through different pages to ensure a comprehensive collection of job data.
 2. Data Extraction with Beautiful Soup:
-   - Parsed the HTML content to extract relevant job information such as job title, company name, location, job description, and posted date.
-   - Ensured quick and accurate data extraction by leveraging Beautiful Soup's parsing capabilities.
+- Parsed the HTML content to extract relevant job information such as job title, company name, location, job description, and posted date.
+- Ensured quick and accurate data extraction by leveraging Beautiful Soup's parsing capabilities.
 3. Data Cleaning and Structuring with Pandas:
-   - Cleaned the scraped data to remove any duplicates, handle missing values, and standardize the data format.
-   - Created a structured Dataframe to facilitate further analysis and visualization.
+- Cleaned the scraped data to remove any duplicates, handle missing values, and standardize the data format.
+- Created a structured Dataframe to facilitate further analysis and visualization.
 
 **Analysis Goals:**
 - Salary Range Analysis: Determine the salary ranges for data-related positions in different countries.
