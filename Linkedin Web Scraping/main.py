@@ -67,6 +67,7 @@ def main(wd1,jobtitle,joblocation):
     df['Keyword Used']=jobtitle
     df['Company']=companyname
     df['Area']=areaname
+    df['Country']=joblocation
     df['Posted On']=postedtime
     df['Number of Applicants']=numofapp
     df['Position Information']=positioninformation
