@@ -62,6 +62,8 @@ def find_and_click_see_more_jobs(last_height,wd1):
                 if new_height == last_height:
                     atempts+=1
                     statusval= False
+                elif atempts>3:
+                    break
                 else:
                     atempts=0
                     new_height = infinite_scroll(wd1)
