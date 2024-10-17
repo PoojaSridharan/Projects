@@ -42,9 +42,9 @@ Goal: Classify countries into distinct economic clusters based on their performa
 
 **Key Insights:**
 
-Top Performers: Wealthy countries with low corruption and unemployment, high GDP, and strong purchasing power.
-Moderate Performers: Economically stable but facing challenges in corruption control or improving purchasing power.
-Low Performers: Countries struggling with high unemployment, corruption, and low purchasing power.
+1. Top Performers: Wealthy countries with low corruption and unemployment, high GDP, and strong purchasing power.
+2. Moderate Performers: Economically stable but facing challenges in corruption control or improving purchasing power.
+3. Low Performers: Countries struggling with high unemployment, corruption, and low purchasing power.
 
 **Technologies Used:**
 
