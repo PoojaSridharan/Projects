@@ -1,4 +1,4 @@
-#### SQL Project: Economic and Social Analysis of Countries
+### SQL Project: Economic and Social Analysis of Countries
 **Overview**
 This SQL project analyzes the economic and social health of countries across various metrics, including corruption, GDP (Gross Domestic Product), cost of living, tourism, and unemployment rates. The dataset used includes information on several factors that influence a country's overall economic status. The project aims to explore key questions related to the relationship between corruption, wealth, tourism, cost of living, and unemployment, while identifying patterns that distinguish top-performing economies from struggling ones.
 
