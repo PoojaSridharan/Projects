@@ -3,7 +3,7 @@
 
 This SQL project analyzes the economic and social health of countries across various metrics, including corruption, GDP (Gross Domestic Product), cost of living, tourism, and unemployment rates. The dataset used includes information on several factors that influence a country's overall economic status. The project aims to explore key questions related to the relationship between corruption, wealth, tourism, cost of living, and unemployment, while identifying patterns that distinguish top-performing economies from struggling ones.
 
-**Project Objectives**
+**Project Objectives:**
 1. Corruption vs. Wealth (GDP): Examine the relationship between a country's corruption index and its GDP or wealth, to determine whether high corruption is associated with lower economic performance.
 
 2. Cost of Living vs. Tourism: Investigate whether a high cost of living deters tourism or whether there are countries with high tourism rates despite high costs.
@@ -18,7 +18,7 @@ This SQL project analyzes the economic and social health of countries across var
 
 7. Economic Health Clusters: Group countries into clusters based on their economic performance, creating distinct classifications such as top performers, moderate performers, and low performers.
 
-**SQL Queries and Analysis**
+**SQL Queries and Analysis:**
 1. Corruption vs. GDP
 Goal: Identify how corruption correlates with GDP and economic performance.
 Key Insights: While high corruption generally correlates with lower GDP, exceptions exist, such as in countries where other economic factors come into play. There’s a significant gap between the cost of living and monthly income in highly corrupt countries, indicating economic burden.
@@ -41,15 +41,18 @@ Key Insights: The healthiest economies tend to have high GDP, low corruption, lo
 Goal: Classify countries into distinct economic clusters based on their performance in various metrics.
 
 **Key Insights:**
+
 Top Performers: Wealthy countries with low corruption and unemployment, high GDP, and strong purchasing power.
 Moderate Performers: Economically stable but facing challenges in corruption control or improving purchasing power.
 Low Performers: Countries struggling with high unemployment, corruption, and low purchasing power.
 
-**Technologies Used**
+**Technologies Used:**
+
 SQL: Structured Query Language was used to query and manipulate data across multiple tables, join relevant datasets, and create meaningful insights.
 RANK() and NTILE(): These window functions were utilized to rank and group countries based on various economic indicators.
 
 **Conclusions**
+
 This project highlights the complexity of global economic health, emphasizing that factors like corruption, cost of living, and tourism can have varying effects on a country's economy. The analysis also demonstrates the importance of balancing multiple metrics—such as GDP, unemployment, and purchasing power—to assess the overall well-being of a nation's economy.
 
 By grouping countries into clusters, the project also provides a framework for comparing economic performance and identifying key areas for improvement or policy changes. Ultimately, this analysis can help policymakers, researchers, and economists better understand global economic dynamics and make informed decisions.
